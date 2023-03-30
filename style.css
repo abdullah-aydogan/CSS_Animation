@@ -1,0 +1,29 @@
+div {
+    position: relative;
+    animation: kosu-animasyon 10s;
+}
+
+#horse1 {
+    animation-timing-function: linear;
+}
+
+#horse2 {
+    animation-timing-function: ease;
+}
+
+#horse3 {
+    animation-timing-function: ease-in;
+}
+
+#horse4 {
+    animation-timing-function: ease-out;
+}
+
+#horse5 {
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes kosu-animasyon {
+    from { left: 0px; }
+    to { left: 600px; background-color: red; }
+}
